@@ -14,15 +14,13 @@ This repository contains Julia code for a MSc course in Financial Theory at UNIS
 
 # On the Files
 
-1. ChapterNumber_Topic.ipynb are notebooks organised around different topics. The chapter numbers correspond to the lecture notes (pdf).
+1. ChapterNumber_Topic.ipynb are notebooks organised around different topics.
 
 2. NotebooksAsPDFxxxx.pdf is a print-out of all notebooks. 
 
-3. FinxAll.pdf contains the lecture notes.
+3. The folder Data contains data sets used in the notebooks, while the folder src contains .jl files with some functions also used in the notebooks.
 
-4. The folder Data contains data sets used in the notebooks, while the folder src contains .jl files with some functions also used in the notebooks.
-
-5. The plots are in png format. If you want sharper plots, change `default(fmt = :png)` to `default(fmt = :svg)` in one of the top cells.
+4. The plots are in png format. If you want sharper plots, change `default(fmt = :png)` to `default(fmt = :svg)` in one of the top cells.
 
 5. The current version is tested on Julia 1.12.
 
